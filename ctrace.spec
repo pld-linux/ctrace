@@ -3,7 +3,7 @@ Summary:	ctrace is a multiprotocol traceroute tool
 Summary(pl):	ctrace jest wieloprotoko³owym narzêdziem do ¶ledzenia pakietów
 Name:		ctrace
 Version:	0.9
-Release:	1
+Release:	2
 License:	distributable
 Group:		Applications/Networking
 Source0:	http://www.pratyeka.org/ctrace/download/%{name}-%{version}.tar.bz2
