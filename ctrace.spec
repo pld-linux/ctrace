@@ -6,8 +6,6 @@ Version:	0.8
 Release:	1
 License:	distributable
 Group:		Applications/Networking
-Group(de):	Applikationen/Netzwerkwesen
-Group(pl):	Aplikacje/Sieciowe
 Source0:	http://www.pratyeka.org/ctrace/download/%{name}-%{version}.tar.bz2
 BuildRequires:	perl-Net-RawIP
 BuildArch:	noarch
