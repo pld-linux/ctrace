@@ -2,12 +2,12 @@
 Summary:	ctrace is a multiprotocol traceroute tool
 Summary(pl):	ctrace jest wieloprotoko³owym narzêdziem do ¶ledzenia pakietów
 Name:		ctrace
-Version:	0.8
+Version:	0.9
 Release:	1
 License:	distributable
 Group:		Applications/Networking
 Source0:	http://www.pratyeka.org/ctrace/download/%{name}-%{version}.tar.bz2
-# Source0-md5:	bc9bbd8cd603b9c95f4563e1f878f4e1
+# Source0-md5:	bf6c2115ed54083a81f297706cf7bb93
 BuildRequires:	perl-Net-RawIP
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -33,6 +33,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc BUGS HISTORY
+%doc BUGS HISTORY INSTALL TODO
 %attr(755,root,root) %{_sbindir}/ctrace
 %{_mandir}/man1/*
