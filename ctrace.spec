@@ -27,13 +27,11 @@ install -d $RPM_BUILD_ROOT{%{_sbindir},%{_mandir}/man1}
 install ctrace $RPM_BUILD_ROOT%{_sbindir}
 install ctrace.man $RPM_BUILD_ROOT%{_mandir}/man1/ctrace.1
 
-gzip -9nf BUGS HISTORY
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc BUGS HISTORY
 %attr(755,root,root) %{_sbindir}/ctrace
 %{_mandir}/man1/*
