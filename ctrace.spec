@@ -8,6 +8,7 @@ License:	distributable
 Group:		Applications/Networking
 Source0:	http://www.pratyeka.org/ctrace/download/%{name}-%{version}.tar.bz2
 # Source0-md5:	bf6c2115ed54083a81f297706cf7bb93
+BuildRequires:	rpm-perlprov
 BuildRequires:	perl-Net-RawIP
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
