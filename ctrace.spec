@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	ctrace is a multiprotocol traceroute tool
-Summary(pl):	ctrace jest wieloprotoko³owym narzêdziem do ¶ledzenia pakietów
+Summary(pl.UTF-8):   ctrace jest wieloprotokoÅ‚owym narzÄ™dziem do Å›ledzenia pakietÃ³w
 Name:		ctrace
 Version:	0.9
 Release:	2
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Multiprotocol traceroute tool.
 
-%description -l pl
-Wieloprotoko³owe narzêdzie do ¶ledzenia tras pakietów.
+%description -l pl.UTF-8
+WieloprotokoÅ‚owe narzÄ™dzie do Å›ledzenia tras pakietÃ³w.
 
 %prep
 %setup -q
